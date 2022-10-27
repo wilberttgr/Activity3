@@ -36,7 +36,7 @@ namespace Activity3
             Console.WriteLine("---------------------");
             for (i = 0; i < n; i++)
             {
-                Console.WriteLine("<" + (i + 1) + ">");
+                Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
                 arr[i] = int.Parse(s1);
             }
